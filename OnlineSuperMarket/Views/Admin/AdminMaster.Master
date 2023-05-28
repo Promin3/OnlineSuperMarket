@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.Master.cs" Inherits="OnlineSuperMarket.Views.Admin.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <style>
+        *{
+            font-family:STXihei;
+        }
+        #left{
+            color:white;
+            height:815px;
+            background-color:teal;
+        }
+        label{
+            color:white;
+        }
+    </style>
+    <link href="../../Assets/Lib/css/bootstrap.min.css" rel="stylesheet"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2" id="left">
+                <div style="height:120px">
+
+                </div>
+                <div class="p-2">
+                     <div class="mb-3">
+                        <img src="../../Assets/images/groceries(1).png" style="height:20px;width:20px"/>
+                        <a href ="#"><label>商品</label></a>
+                     </div>              
+                     <div class="mb-3">
+                        <img src="../../Assets/images/groceries(1).png" style="height:20px;width:20px"/>
+                        <a href ="#"><label>生产商</label></a>
+                    </div>
+
+                    <div class="mb-3">
+                        <img src="../../Assets/images/groceries(1).png" style="height:20px;width:20px"/>
+                        <a href ="#"><label>用户</label></a>
+                    </div>
+
+                    <div class="mb-3">
+                        <img src="../../Assets/images/groceries(1).png" style="height:20px;width:20px"/>
+                        <a href ="#"><label>类别</label></a>
+                    </div>
+
+                    <div class="mb-3">
+                        <img src="../../Assets/images/groceries(1).png" style="height:20px;width:20px"/>
+                        <a href ="#"><label>退出</label></a>
+                    </div>
+                </div>
+             </div>      
+
+
+                    <div class="col-10">
+                        <form id="form1" runat="server">
+                          <div>
+                                <asp:ContentPlaceHolder ID="MyContent" runat="server">
+
+                                </asp:ContentPlaceHolder>
+                          </div>
+                        </form>
+                    </div>
+  
+        </div>
+    </div>
+
+</body>
+</html>
