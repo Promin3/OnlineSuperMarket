@@ -7,74 +7,92 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace OnlineSuperMarket.Views.Admin
+namespace OnlineSuperMarket.Views.Customers
 {
 
 
-    public partial class Categories
+    public partial class Billing
     {
 
         /// <summary>
-        /// CatNameTb 控件。
+        /// PNameTb 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText CatNameTb;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText PNameTb;
 
         /// <summary>
-        /// DescriptionTb 控件。
+        /// PriceTb 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText DescriptionTb;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText PriceTb;
 
         /// <summary>
-        /// ErrMsg 控件。
+        /// QtyTb 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label ErrMsg;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText QtyTb;
 
         /// <summary>
-        /// EditBtn 控件。
+        /// AddTobillBtn 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button EditBtn;
+        protected global::System.Web.UI.WebControls.Button AddTobillBtn;
 
         /// <summary>
-        /// SaveBtn 控件。
+        /// ProductList 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button SaveBtn;
+        protected global::System.Web.UI.WebControls.GridView ProductList;
 
         /// <summary>
-        /// DeleteBtn 控件。
+        /// ShoppingCartList 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button DeleteBtn;
+        protected global::System.Web.UI.WebControls.GridView ShoppingCartList;
 
         /// <summary>
-        /// CategoryList 控件。
+        /// RMBLabel 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView CategoryList;
+        protected global::System.Web.UI.WebControls.Label RMBLabel;
+
+        /// <summary>
+        /// GrdTotalTb 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label GrdTotalTb;
+
+        /// <summary>
+        /// PrintBtn 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button PrintBtn;
     }
 }

@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.Master.cs" Inherits="OnlineSuperMarket.Views.Admin.Site1" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CustomerMaster.master.cs" Inherits="OnlineSuperMarket.Views.Customers.CustomerMaster" %>
 
 <!DOCTYPE html>
 
@@ -32,29 +32,37 @@
         <div class="row">
             <div class="col-2" id="left">
                 <div style="height:120px">
-                    <img src="../../Assets/images/Clipboard.png" id="logo" style="height:66px; width:65px"/>
+                    <img src="../../Assets/images/shopping-cart.png" id="logo" style="height:66px; width:65px"/>
                 </div>
                 <div class="p-2">
                      <div class="mb-3">
-                        <img src="../../Assets/images/groceries(1).png" style="height:40px;width:40px"/>
-                        <a href ="Products.aspx"><label>商品</label></a>
+                        
+                        <img src="../../Assets/images/bill.png" style="height:40px;width:40px"/>
+                        <a href ="#"><label>订单结算</label></a>
+                        
                      </div>              
                      <div class="mb-3">
-                        <img src="../../Assets/images/manufacture.png"  style="height:40px;width:40px"/>
+                        <!--
+                        <img src="../../Assets/images/manufacture.png"  style="height:20px;width:20px"/>
                         <a href ="Manufactors.aspx"><label>生产商</label></a>
+                         -->
                     </div>
 
                     <div class="mb-3">
-                        <img src="../../Assets/images/team.png" style="height:40px;width:40px"/>
+                        <!--
+                        <img src="../../Assets/images/customer-feedback(2).png" style="height:20px;width:20px"/>
                         <a href ="Customers.aspx"><label>用户</label></a>
+                        -->
                     </div>
 
                     <div class="mb-3">
-                        <img src="../../Assets/images/layout.png" style="height:40px;width:40px"/>
+                        <!--
+                        <img src="../../Assets/images/dashboard.png"  style="height:20px;width:20px"/>
                         <a href ="Categories.aspx"><label>类别</label></a>
+                        -->
                     </div>
 
-                    <div style="height:200px">
+                    <div style="height:300px">
 
                     </div>
                     

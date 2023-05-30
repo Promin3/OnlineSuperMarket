@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\images\bill.png" />
+    <Content Include="Assets\images\Clipboard.png" />
     <Content Include="Assets\images\customer-feedback%281%29.png" />
     <Content Include="Assets\images\customer-feedback%282%29.png" />
     <Content Include="Assets\images\dashboard.png" />
@@ -114,7 +116,8 @@
     <Content Include="Views\Admin\Categories.aspx" />
     <Content Include="Views\Admin\Customers.aspx" />
     <Content Include="Views\Admin\Products.aspx" />
-    <Content Include="Views\Admin\Manufacturers.aspx" />
+    <Content Include="Views\Admin\Manufactors.aspx" />
+    <Content Include="Views\Customers\Billing.aspx" />
     <Content Include="Views\Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -122,6 +125,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Functions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\Admin\AdminMaster.Master.cs">
       <DependentUpon>AdminMaster.Master</DependentUpon>
@@ -151,12 +155,26 @@
     <Compile Include="Views\Admin\Products.aspx.designer.cs">
       <DependentUpon>Products.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Views\Admin\Manufacturers.aspx.cs">
-      <DependentUpon>Manufacturers.aspx</DependentUpon>
+    <Compile Include="Views\Admin\Manufactors.aspx.cs">
+      <DependentUpon>Manufactors.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Views\Admin\Manufacturers.aspx.designer.cs">
-      <DependentUpon>Manufacturers.aspx</DependentUpon>
+    <Compile Include="Views\Admin\Manufactors.aspx.designer.cs">
+      <DependentUpon>Manufactors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Customers\Billing.aspx.cs">
+      <DependentUpon>Billing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Customers\Billing.aspx.designer.cs">
+      <DependentUpon>Billing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Customers\CustomerMaster.Master.cs">
+      <DependentUpon>CustomerMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Customers\CustomerMaster.Master.designer.cs">
+      <DependentUpon>CustomerMaster.Master</DependentUpon>
     </Compile>
     <Compile Include="Views\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -191,6 +209,7 @@
     <Content Include="Assets\Lib\js\bootstrap.min.js.map" />
     <None Include="packages.config" />
     <Content Include="Views\Admin\AdminMaster.Master" />
+    <Content Include="Views\Customers\CustomerMaster.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -200,8 +219,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
-    <Folder Include="Views\Customers\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

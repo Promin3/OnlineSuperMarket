@@ -21,8 +21,9 @@
                 <form id="form1" runat="server">
                     <div>
                         <div class="row">
-                            <div class ="col-md-4"></div>
-                            <div class ="col-md-8">
+                            <div class ="col-md-3">
+                            </div>
+                            <div class ="col-md-9">
                                 <img src="../Assets/images/market.png"/ style="height: 192px; width:183px">
 
                             </div>
@@ -31,13 +32,14 @@
                     </div>
                     <div class="mt-3">
                         <label for="" class="form-label">用户名</label>
-                        <input type="text" placeholder="" autocomplete="off" class ="form-control" id="UnameTb" />
+                        <input type="email" placeholder="" autocomplete="off" class ="form-control" runat="server" id="UnameTb" />
                     </div>
                      <div class="mt-3">
                         <label for="" class="form-label">密码</label>
-                        <input type="password" placeholder="" autocomplete="off" class ="form-control" id="PasswordTb" />
+                        <input type="password" placeholder="" autocomplete="off" class ="form-control" runat="server" id="PasswordTb" />
                     </div>
                     <div class="mt-3 d-grid">
+                         <asp:Label runat="server" ID="ErrMsg" class="text-danger text-center"></asp:Label>
                         <asp:Button Text="登录" runat="server" Class="btn-success btn" ID="LoginBtn" OnClick="LoginBtn_Click"  />
                     </div>
                 </form>
