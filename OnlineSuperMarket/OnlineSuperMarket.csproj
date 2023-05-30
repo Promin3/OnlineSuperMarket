@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\images\background.png" />
     <Content Include="Assets\images\bill.png" />
     <Content Include="Assets\images\Clipboard.png" />
     <Content Include="Assets\images\customer-feedback%281%29.png" />
@@ -85,11 +86,13 @@
     <Content Include="Assets\images\manufacture.png" />
     <Content Include="Assets\images\market.png" />
     <Content Include="Assets\images\online-shopping.png" />
+    <Content Include="Assets\images\p.jpg" />
     <Content Include="Assets\images\shopping-cart.png" />
     <Content Include="Assets\images\supermarket.png" />
     <Content Include="Assets\images\supermarkets.png" />
     <Content Include="Assets\images\supplier.png" />
     <Content Include="Assets\images\team.png" />
+    <Content Include="Assets\images\web.jpg" />
     <Content Include="Assets\Lib\css\bootstrap-grid.css" />
     <Content Include="Assets\Lib\css\bootstrap-grid.min.css" />
     <Content Include="Assets\Lib\css\bootstrap-grid.rtl.css" />

@@ -8,8 +8,9 @@
     <title></title>
     <link rel="stylesheet" href="../Assets/Lib/css/bootstrap.min.css">
 </head>
-<body>
+<body style="background-image: url('../Assets/images/web.jpg'); background-size: cover; background-position:center;">
     <div class="container-fluid">
+        
         <div class ="row mt-5 mb-5">
 
         </div>
